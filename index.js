@@ -11,9 +11,9 @@ app.listen(3000, () => {
 // ✅ Mineflayer bot
 const mineflayer = require("mineflayer");
 
-const host = process.env.smpbabalarbilirolm.aternos.me;
-const port = parseInt(process.env.55814); // çünkü string gelir
-const username = process.env.b4balarbilirbot;
+const host = process.env.IP;
+const port = parseInt(process.env.PORT); // çünkü string gelir
+const username = process.env.NAME;
 
 var lasttime = -1;
 var moving = 0;
